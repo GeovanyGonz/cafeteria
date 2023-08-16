@@ -199,7 +199,7 @@ body {
 /***********Banner*******/
 
 .banner {
-    background-image: url('img/banner.jpg');
+    background-image: url('../img/banner.jpg');
     height: 48rem;
     background-size: cover;
     background-position: center;
@@ -301,19 +301,19 @@ body {
 
 .category-moca {
     background-image: linear-gradient(#43383880, #12111180),
-    url('img/moca-category.jpg');
+    url('../img/moca-category.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .category-capuchino {
-    background-image: linear-gradient(#00000080, #00000080),    url(img/capuchino-category.jpg);
+    background-image: linear-gradient(#00000080, #00000080),    url(../img/capuchino-category.jpg);
     background-size: cover;
 }
 
 .category-expreso {
     background-image: linear-gradient(#00000080, #00000080),
-		url('img/expreso-category.jpg');
+		url('../img/expreso-category.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -549,20 +549,20 @@ body {
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;
-    background-color: rgb(190, 103, 72);
 }
 
 /********Blogs******/
 .blogs {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 }
 
 .container-blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .card-blog {
