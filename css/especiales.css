@@ -11,12 +11,13 @@
     --primary-color: #cb8a49;
     --background-color: #f9f5f0;
     --dark-color: #151515;
+    --gray-color: gray;
 }
 
 
 /************HEADER************/
 .container-hero {
-    background-color: var(--background-color);
+    background-color: var(--gray-color);
 }
 
 .hero {
@@ -85,7 +86,7 @@
 
 /********Nabvar************/
 .container-navbar {
-    background-color: var(--primary-color);
+    background-color: var(--gray-color);
 }
 
 .navbar {
@@ -329,4 +330,9 @@
     text-decoration: line-through;
     color: #685e5e;
     margin-left: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    background: rgb(70, 101, 70);
 }
