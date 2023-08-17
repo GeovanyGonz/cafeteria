@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header with Font Awesome</title>
+    
+    <link rel="stylesheet" href="../css/contactanos.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="fas fa-bars"></span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Mejores Categorias </a></li>
+                <li><a href="./especiales.html">Especiales </a></li>
+                <li><a href="./blogs.html">Blogs </li>
+                <li><a href="./contactanos.html">Contactanos <span class="fas fa-envelope"></span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="cards">
+            <div class="card">
+               <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+               <h3>Expresso Americano</h3>
+               <p>De hecho, esta parece ser una necesidad básica del corazón humano en casi toda crisis importante: una buena taza de café caliente.</p>
+            </div>
+      
+            <div class="card">
+               <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhZmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+               <h3>Cafe Moca</h3>
+               <p>¡Programadores! ¡Poetas! ¡Momias! ¡Mecánicos! ¡Vendedores! Les serviremos a todos ustedes. siempre una taza de cafe.</p>
+            </div>
+      
+            <div class="card">
+               <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNhZmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+               <h3>Capuchino</h3>
+               <p>Tomando una taza de cafe, se reflexiona, se sueña, se imagina, se escribe, se conversa, se enamora, etc.</p>
+            </div>
+      
+            <div class="card">
+               <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhZmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Card 1">
+               <h3>Mejores categorias</h3>
+               <p>No hay nada mejor como una taza buena de café para estimular las células del cerebro y comenzar el dia.</p>
+            </div>
+        </section>
+
+        <h2>Contactanos</h2>
+        <form class="contact-section">
+            <label for="name">Nombre y apellido:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+           <input type="submit" value="Enviar">
+        </form>
+
+    </main>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        const mobileMenuButton = document.getElementById("mobile-menu");
+        mobileMenuButton.onclick = function() {
+            const nav = document.querySelector("nav");
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
