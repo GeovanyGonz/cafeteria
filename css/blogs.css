@@ -11,6 +11,8 @@
     --primary-color: #cb8a49;
     --background-color: #f9f5f0;
     --dark-color: #151515;
+    --green-color: #66b964;
+    --gray-color: gray;
 }
 
 
@@ -86,7 +88,9 @@
 
 /********Nabvar************/
 .container-navbar {
-    background-color: var(--primary-color);
+    background-color: var(--gray-color);
+    padding: 15px;
+    border-radius: 6px;
 }
 
 .navbar {
@@ -96,7 +100,7 @@
     padding: 1rem 0;
 }
 
-.nabvar .fa-bars {
+.display-none {
     display: none;
 }
 
