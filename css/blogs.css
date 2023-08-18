@@ -299,3 +299,18 @@
 .btn-read-more:hover {
 	background-color: var(--dark-color);
 }
+
+@media (max-width: 768px) {
+    .display-none {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav.active ul {
+        display: block;
+    }
+}

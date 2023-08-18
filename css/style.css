@@ -110,8 +110,9 @@ body {
     padding: 1rem 0;
 }
 
-.nabvar .fa-bars {
+.display-none .fa-bars{
     display: none;
+    
 }
 
 .menu {
